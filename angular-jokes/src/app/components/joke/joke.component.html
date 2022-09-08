@@ -1,0 +1,13 @@
+<h3>{{title}}</h3>
+<div class="contents">
+  {{contents}}
+</div>
+<div class="buttons">
+  <button class="save" (click)="save()">
+    Save
+  </button>
+  <button (click)="getJokeOrQuote()">{{jokeOrQuote ? 'Tell me another joke': 'Quote a quote'}}</button>
+  <button (click)="favoritze()">
+    Favoritize
+  </button>
+</div>

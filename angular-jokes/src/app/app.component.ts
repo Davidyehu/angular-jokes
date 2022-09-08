@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-jokes';
+
+  save(joke: string) {
+    console.log(joke);
+  }
+
+  favoritize(quote: string) {
+    console.log(quote);
+  }
 }
